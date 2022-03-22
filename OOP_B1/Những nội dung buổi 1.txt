@@ -1,0 +1,7 @@
+Funtion: hàm, hàm con, hàm nhập, hàm xuất...
+Struct: cấu trúc
+Pointer: Con trỏ
+Sau khi học OOP c++
+Class: lớp - Thuộc tính
+	   - Phương thức: Nhập, xuất...
+	   - Phạm vi truy cập: Private, Public, Protected, Default

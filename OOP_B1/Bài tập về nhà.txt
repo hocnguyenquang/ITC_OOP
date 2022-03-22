@@ -1,0 +1,20 @@
+Câu 1: Xây dựng lớp khách hàng KH gồm các thuộc tính họ tên ht (kiểu char[30]), ngày sinh ns (kiểu struct NS(ngày, tháng, năm)), số chứng minh thư cmt (kiểu char[10]), hộ khẩu k (kiểu char[50]) là các thuộc tính riêng. Trong lớp có định nghĩa các hàm công cộng sau:
+-	Hàm nhập dữ liệu cho các thông tin trên của 1 khách hàng
+-	Hàm xuất các thông tin trên của khách hàng ra màn hình
+Viết chương trình nhập vào n(n nguyên dương nhập từ bàn phím) khách hàng. In ra màn hình:
+-	Danh sách khách hàng theo thứ tự tăng dần của họ tên.
+-	Danh sách các khách hàng có sinh nhật tháng 12.
+
+Câu 2: Xây dựng lớp giáo viên GV gồm các thuộc tính họ tên ht (kiểu char[30]), tuổi t (kiểu số nguyên), bằng cấp cao nhất được đào tạo bc (kiểu char[15]), chuyên ngành (kiểu char[20]), bậc lương bl (kiểu float) là các thuộc tính riêng. Trong lớp có định nghĩa các hàm công cộng sau:
+-	Hàm nhập dữ liệu cho các thông tin trên của 1 giáo viên
+-	Hàm xuất các thông tin trên của giáo viên ra màn hình
+-	Hàm tính tiền lương cơ bản lcb biết rằng lcb = bl *610
+Viết chương trình nhập vào n(n nguyên dương nhập từ bàn phím) giáo viên. In ra màn hình:
+-	Danh sách các giáo viên có tiền lương nhỏ hơn 2000.
+-	Danh sách giáo viên sắp xếp theo chuyên ngành.
+
+Câu 3: Xây dựng lớp đa thức bậc 3 DaThuc3 gồm các thuộc tính hệ số bậc 3, bậc 2, bậc 1 và bậc 0 lần lượt là a, b, c, d (a, b, c, d nguyên) là các thuộc tính riêng. Trong lớp có định nghĩa các hàm công cộng sau:
+-	Hàm khởi tạo với các tham số có giá trị ngầm định bằng 0
+-	Hàm hủy
+-	Hàm hiển thị đa thức ra màn hình ở dạng (ax3 + bx2 + cx + d)
+Viết chương trình nhập 2 đa thức và in ra màn hình tổng 2 đa thức đó.
