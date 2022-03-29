@@ -1,0 +1,18 @@
++ Hàm khởi tạo(constructer):
+	+ cái hàm nó khởi tạo một đối tượng đi kèm với các thuộc tính khác nhau
+	+ Hàm khởi tạo bắt buộc phải trùng tên với class của nó. vd: class  SinhVien(){}
+	+ Hàm khởi tạo sẽ không bao giờ có giá trị trả về (kể cả kiểu void)
+	+ Có thể có 2 hàm khởi tạo trong cùng 1 class được không? Không
+	+ Hàm khởi không tham số  SinhVien(){} 
+		- Hàm khởi tạo có tham số SinhVien(char *hoten1, int tuoi){strcpy(this ->hoten1, ht); this ->tuoi = t;}
+		- Hàm khởi tạo có tham số chứa giá trị ngầm định
+			SinhVien(char *hoten1 = " ", int tuoi = 0){}
++ Hàm hủy(Disconstructer)
+	+ Hủy, xóa các đối tượng mà mình không sử dụng hoặc khi kết thúc
+	+ Hàm hủy bắt buộc phải trùng tên với class của nó
+	+ ~SinhVien(){}
++ Hàm bạn(Friend) + operator(định nghĩa toán tử):
+	+ Friend istream& operator >>(istream& is, SinhVien &a)
+	{
+		Các chức năng mà mình muốn định nghĩa cho toán tử
+	}

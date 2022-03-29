@@ -1,4 +1,4 @@
-Câu 1: Xây dựng lớp khách hàng KH gồm các thuộc tính họ tên ht (kiểu char[30]), ngày sinh ns (kiểu struct NS(ngày, tháng, năm)), số chứng minh thư cmt (kiểu char[10]), hộ khẩu k (kiểu char[50]) là các thuộc tính riêng. Trong lớp có định nghĩa các hàm công cộng sau:
+Câu 1: Xây dựng lớp khách hàng KH gồm các thuộc tính họ tên ht (kiểu char[30]), ngày sinh ns(kiểu struct NS(ngày, tháng, năm)), số chứng minh thư cmt (kiểu char[10]), hộ khẩu k (kiểu char[50]) là các thuộc tính riêng. Trong lớp có định nghĩa các hàm công cộng sau:
 -	Hàm nhập dữ liệu cho các thông tin trên của 1 khách hàng
 -	Hàm xuất các thông tin trên của khách hàng ra màn hình
 Viết chương trình nhập vào n(n nguyên dương nhập từ bàn phím) khách hàng. In ra màn hình:
