@@ -1,0 +1,11 @@
+- Kế thừa:
+ + Thằng con sẽ được kế thừa, thừa hưởng các thuộc tính, 
+chức năng... của người cha để lại.
+*Lưu ý: Thằng con có thể thừa hưởng hay có lại những đặc
+điểm của người cha nhưng chưa chắc người cha đã có những
+đặc điểm của người con.
+- Đơn kế thừa:
+ + Kế thừa chỉ 1 đối tượng duy nhất
+- Đa kế thừa:
+ + Kế thừa có thể từ 2 đối tượng trở lên
+- Lớp ảo, hàm ảo(hàm thuần ảo) //Học thêm

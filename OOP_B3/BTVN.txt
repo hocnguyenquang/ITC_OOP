@@ -1,0 +1,33 @@
+Câu 1: Xây dựng lớp Người gồm có các thành phần Họ tên và Năm sinh. Viết các phương thức của lớp như nhập, hiển thị dữ liệu. 
+Xây dựng lớp Thí sinh kế thừa lớp này, trong lớp Thí sinh có Số báo danh và Điểm các môn toán, lý, hóa. Hãy xây dựng thêm các phương thức nhập, xuất và khai báo mảng có kiểu là Thisinh để quản lý danh sách các thí sinh. Viết chương trình với các công việc sau:
+-	Nhập vào một danh sách có n thí sinh
+-	Hiển thị danh sách thí sinh có tổng điểm ba môn tăng dần;
+-	Tìm một thí sinh khi biết Số báo danh.
+-	Thống kê xem có bao nhiêu phần trăm thí sinh đạt yêu cầu (cả ba môn có điểm lớn hơn hoặc bằng 5).
+
+Câu 2: Xây dựng lớp Sản phẩm bao gồm: Mã sản phẩm, Tên sản phẩm, Năm sản xuất và các phương thức nhập, xuất. 
+Xây dựng tiếp lớp Tivi có thêm các thuộc tính Chiều dài, Chiều rộng của màn hình. Hãy xây dựng phương thức tính diện tích của màn hình của lớp Tivi. 
+Viết chương trình nhập vào các đối tượng của lớp Tivi, sau đó sắp xếp tăng dần theo diện tích màn hình của các đối tượng này.
+
+Câu 3: Xây dựng lớp Ấn phẩm  gồm: 
++ Thuộc tính: tên, giá thành.
++ Phương thức: nhập, hiển thị.
+Xây dựng lớp Sách kế thừa từ lớp Ấn phẩm  và bổ sung thêm:
++ Thuộc tính: Số trang.
++ Phương thức: nhập, hiển thị.  
+Xây dựng lớp Đĩa CD kế thừa từ lớp Ấn phẩm và bổ sung thêm:
++ Thuộc tính: Số phút.
++ Phương thức: nhập, hiển thị.
+Chương trình chính thực hiện:
+	+ Khai báo danh sách n quyển sách (n nguyên dương nhập từ bàn phím), nhập danh sách và hiển thị những quyển sách có số trang > 500.
+	+ Khai báo danh sách n đĩa CD (n nguyên dương nhập từ bàn phím), nhập danh sách và hiển thị đĩa CD được tìm theo tên (tên cần tìm nhập từ bàn phím).
+
+Câu 4: Xây dựng một lớp đối tượng các máy in, lớp gồm có các thành phần:
+- Các thuộc tính số hiệu và số l¬ượng trong kho.
+- Hàm nhapkho(int q) để nhập vào kho q đơn vị mặt hàng.
+- Hàm xuatkho(int q) để xuất ra khỏi kho q đơn vị mặt hàng.
+Xây dựng lớp máy in laser kế thừa từ lớp máy in và có thêm thuộc tính dpi 
+Xây dựng lớp máy in màu kế thừa từ lớp máy in có thêm thuộc tính bảng màu.
+Xây dựng lớp máy in laser màu kế thừa từ lớp máy in laser và máy in màu.
+Viết chư¬ơng trình hư¬ớng đối tượng quản lý các loại máy in với các thủ tục: nhập, xuất và in ra số lư¬ợng các loại có trong kho.
+
